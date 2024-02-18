@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    background-color:#212121;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: #121212;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+nav ul li a:hover {
+    color: rgb(131, 131, 239);
+    font-size: 1.0rem;
+}
+
+.left {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: yellow;
+}
+
+.firstsection {
+    justify-content: space-around;
+    display: flex;
+    margin: 120px;
+
+
+}
+
+.leftsection {
+    font-size: 3rem;
+    margin: 30px;
+}
+
+.firstsection>div {
+    width: 30%;
+}
+
+.rightsection img {
+    width: 138%;
+}
+
+.purple {
+    color: blueviolet;
+}
+
+.text-grey {
+    color: grey;
+}
+
+#element {
+    color: blueviolet;
+
+}
+
+.secondsection {
+    height: 84vh;
+    max-width: 80vw;
+    margin: auto;
+}
+
+.secondsection h1 {
+    font-size: 1.9rem;
+}
+
+.secondsection .box {
+    background: white;
+    height: 3px;
+    margin: 54px 0;
+    width: 135vh;
+    display: flex;
+}
+
+.secondsection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: rgb(237, 217, 217);
+    margin: 0 100px
+}
+
+main hr {
+    border: 0;
+    background-color: rgb(176, 176, 238);
+    height: 2px;
+    margin: 60px 85px;
+}
