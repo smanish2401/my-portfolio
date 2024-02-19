@@ -97,7 +97,7 @@ nav ul li a:hover {
 }
 
 .secondsection h1 {
-    font-size: 2rem;
+    font-size: 2.1rem;
 }
 
 .secondsection .box {
@@ -125,6 +125,7 @@ main hr {
     display: flex;
     gap: 50px;
     flex-wrap: wrap;
+    margin-top: 40px;
 }
 .project-data{
     width: 300px;
@@ -150,9 +151,10 @@ main hr {
     align-items: center;
     gap: 10px;
 }
-.project-title h2{
+.project-title p{
     color: white;
     text-align: center;
+    font-size: 1.5em;
 }
 .project-data a{
     text-decoration: none;
