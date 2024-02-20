@@ -1,7 +1,9 @@
+
 * {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+   
    
 }
 :root {
@@ -125,6 +127,7 @@ main hr {
     gap: 50px;
     flex-wrap: wrap;
     margin-top: 40px;
+    justify-content: center;
 }
 .project-data{
     width: 300px;
@@ -176,4 +179,29 @@ main hr {
     display: flex;
     align-items: center;
     gap: 20px;
+}
+.all-project a{
+    text-decoration: none;
+}
+.btn{
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    background-color: rgb(82, 82, 79);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 140px;
+    height: 50px;
+    font-size: 22px;
+   transition: 0.3s;
+    border-radius: 4px;
+    color:white;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:yellow; 
+    color: black;
 }
