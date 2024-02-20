@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    
+    scroll-behavior: smooth;
    
 }
 :root {
@@ -23,8 +23,7 @@ nav {
     height: 80px;
     width: 100%;
     background-color: #121212;
-    position: fixed;
-    top:0
+   
 }
 
 nav ul {
@@ -136,6 +135,7 @@ main hr {
     margin-top: 30px;
     padding: 10px;
     border-radius: 6px;
+    transition: 0.3s;
    
 }
 .project-data img{
@@ -171,4 +171,9 @@ main hr {
     --a:1;
     background-color: #464343;
     box-shadow: 1px 2px 1px ;
+}
+.secTitle{
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
