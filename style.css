@@ -2,7 +2,7 @@
 * {
     margin: 0;
     padding: 0;
-    scroll-behavior: smooth;
+    scroll-behavior:smooth;
    
    
 }
@@ -25,6 +25,7 @@ nav {
     height: 80px;
     width: 100%;
     background-color: #121212;
+    position: fixed
    
 }
 
@@ -59,8 +60,10 @@ nav ul li a:hover {
 .firstsection {
     justify-content: space-around;
     display: flex;
-    margin: 120px;
+    /* margin: 120px; */
     align-items: center;
+    padding: 135px 0px;
+    background-color: #3d3937;
 
 
 }
@@ -75,7 +78,7 @@ nav ul li a:hover {
 }
 
 .rightsection img {
-    width: 500px;
+    width: 100%;
 }
 
 .purple {
@@ -92,13 +95,15 @@ nav ul li a:hover {
 }
 
 .secondsection {
-    height: 84vh;
-    max-width: 80vw;
+    
+    max-width: 100%;
     margin: auto;
+    padding: 74px 10px;
+   
 }
 
 .secondsection h1 {
-    font-size: 2.1rem;
+    font-size: 1.8rem;
 }
 
 .secondsection .box {
@@ -116,12 +121,7 @@ nav ul li a:hover {
     margin: 0 100px
 }
 
-main hr {
-    border: 0;
-    background-color: rgb(176, 176, 238);
-    height: 2px;
-    margin: 60px 85px;
-}
+
 .projects{
     display: flex;
     gap: 50px;
@@ -179,6 +179,12 @@ main hr {
     display: flex;
     align-items: center;
     gap: 20px;
+    justify-content: center;
+}
+.all-project{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 .all-project a{
     text-decoration: none;
@@ -204,4 +210,9 @@ main hr {
 .btn:hover{
     background-color:yellow; 
     color: black;
+}
+.line{
+    width: 100%;
+    height: 2px;
+    background-color: #484d4b;
 }
