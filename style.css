@@ -28,6 +28,9 @@ nav {
     position: fixed
    
 }
+nav a{
+    text-decoration: none;
+}
 
 nav ul {
     display: flex;
@@ -62,9 +65,9 @@ nav ul li a:hover {
     display: flex;
     /* margin: 120px; */
     align-items: center;
-    padding: 135px 0px;
+    padding: 160px 0px;
     background-color: #3d3937;
- /*   background-image: url("images/header.jpg");
+   /* background-image: url("images/header-background.jpg");
     background-size:contain;*/
     
 
@@ -262,8 +265,17 @@ nav ul li a:hover {
     width: 42%;
 }
 .leftsection {
-    font-size: 1.5rem;
+    font-size: 30px;
     margin: 30px;
+}
+.firstsection {
+    justify-content: space-around;
+    display: flex;
+    /* margin: 120px; */
+    align-items: center;
+    padding: 160px 0px;
+    background-color: #3d3937;
+    flex-direction: column;
 }
 
 }
