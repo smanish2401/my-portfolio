@@ -5,7 +5,7 @@ var typed = new Typed('#element', {
 });
 
 document.querySelector(".hamburger").addEventListener("click",()=>{
-    document.getElementById("list").style.left = '20%'
+    document.getElementById("list").style.left = '40%'
 })
 document.querySelector(".close").addEventListener("click",()=>{
     document.getElementById("list").style.left = '110%'

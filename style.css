@@ -24,7 +24,7 @@ nav {
     align-items: center;
     padding: 22px 0px;
     width: 100%;
-    background-color: #121212;
+    background-color: #af3232;
     position: fixed
    
 }
@@ -66,15 +66,17 @@ nav ul li a:hover {
     /* margin: 120px; */
     align-items: center;
     padding: 160px 0px;
-    background-color: #3d3937;
-   /* background-image: url("images/header-background.jpg");
-    background-size:contain;*/
-    
+    background-color:#212121;
+   /* background-image: url("images/background.jpg");
+    background-size:100%;*/
+   
+   
 
 }
 
 .leftsection {
     font-size: 3rem;
+    font-weight: 600;
     margin: 30px;
 }
 
@@ -104,6 +106,7 @@ nav ul li a:hover {
     max-width: 100%;
     margin: auto;
     padding: 74px 10px;
+    background-color: #121212;
    
 }
 
@@ -111,20 +114,7 @@ nav ul li a:hover {
     font-size: 1.8rem;
 }
 
-.secondsection .box {
-    background: white;
-    height: 3px;
-    margin: 54px 0;
-    width: 135vh;
-    display: flex;
-}
 
-.secondsection .vertical {
-    height: 93px;
-    width: 1px;
-    background-color: rgb(237, 217, 217);
-    margin: 0 100px
-}
 
 
 .projects{
@@ -230,6 +220,7 @@ nav ul li a:hover {
 .close img{
     width: 40px;
 }
+
 @media (max-width:900px) {
     nav ul{
         display: flex;
@@ -262,15 +253,16 @@ nav ul li a:hover {
 
 @media (max-width:500px){
 .firstsection>div {
-    width: 42%;
+    width: 70%;
 }
 .leftsection {
-    font-size: 30px;
+    font-size: 40px;
     margin: 30px;
 }
 .firstsection {
     justify-content: space-around;
     display: flex;
+    
     /* margin: 120px; */
     align-items: center;
     padding: 160px 0px;
@@ -279,3 +271,17 @@ nav ul li a:hover {
 }
 
 }
+.colorful-text {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    background: linear-gradient(to right, #ffbf00, #ff007f, #7f00ff, #00ffbf, #00bfff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow 10s linear infinite;
+  }
+
+  @keyframes rainbow {
+    0% { background-position: 0 0; }
+    100% { background-position: 100% 0; }
+  }
