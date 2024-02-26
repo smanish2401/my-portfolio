@@ -144,17 +144,18 @@ nav ul li a:hover {
     padding-top: 10px;
     object-fit: contain;
 }
-.project-title{
+/*.project-title{
     margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
-}
+}*/
 .project-title p{
     color: white;
     text-align: center;
     font-size: 1.5em;
+   
 }
 .project-data a{
     text-decoration: none;
@@ -170,7 +171,7 @@ nav ul li a:hover {
 .project-data:hover{
     --a:1;
     background-color: #464343;
-    box-shadow: 1px 2px 1px ;
+    box-shadow: 1px 2px 1px #ffff ;
 }
 .secTitle{
     display: flex;
@@ -186,7 +187,7 @@ nav ul li a:hover {
 .all-project a{
     text-decoration: none;
 }
-.btn{
+/*.button{
     padding: 10px;
     margin-bottom: 15px;
     margin-top: 10px;
@@ -204,10 +205,10 @@ nav ul li a:hover {
     color:white;
     cursor: pointer;
 }
-.btn:hover{
+.button:hover{
     background-color:yellow; 
     color: black;
-}
+}*/
 .hamburger img{
     display: none;
     cursor: pointer;
