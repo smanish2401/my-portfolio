@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -77,9 +77,10 @@ nav ul li a:hover {
 }
 
 .leftsection {
-    font-size: 3rem;
+    font-size: 2.7rem;
     font-weight: 600;
     margin: 30px;
+    color: #e9dada;
 }
 
 .firstsection>div {
@@ -90,9 +91,7 @@ nav ul li a:hover {
     width: 100%;
 }
 
-.purple {
-    color: blueviolet;
-}
+
 
 .text-grey {
     color: grey;
@@ -223,7 +222,26 @@ nav ul li a:hover {
 .close img{
     width: 40px;
 }
-
+.section-third{
+    background-color: #303841;
+    padding: 160px 0;
+   
+    
+}
+.section-third .text{
+    font-family: "Raleway", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 700;
+      font-style: normal;
+      font-size: 3.5rem;
+    
+}
+.links img{
+    filter: invert(1);
+}
+.links .txt{
+    color: rgb(207, 200, 200);
+}
 @media (max-width:900px) {
     nav ul{
         display: flex;
@@ -275,10 +293,10 @@ nav ul li a:hover {
 
 }
 .colorful-text {
-    font-size: 48px;
+    font-size: 44px;
     font-weight: bold;
     text-align: center;
-    background:linear-gradient(to right, #ffbf00, #ff007f, #7f00ff, #00ffbf, #00bfff);
+    background:linear-gradient(to right, #ffbf00, #ff007f, #7f00ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: rainbow 10s linear infinite;
