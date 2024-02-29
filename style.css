@@ -226,6 +226,12 @@ nav ul li a:hover {
 .section-third{
     background-color: #303841;
     padding: 160px 0;
+   border-bottom: 1px solid #ddd;
+    
+}
+.section-fourth{
+    background-color: #303841;
+    padding: 160px 0;
    
     
 }
@@ -242,6 +248,11 @@ nav ul li a:hover {
 }
 .links .txt{
     color: rgb(207, 200, 200);
+}
+.mail span{
+    font-size: 35px;
+    font-weight: bold;
+    color: #ddd;
 }
 
 
