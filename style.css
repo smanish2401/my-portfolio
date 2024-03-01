@@ -243,16 +243,20 @@ nav ul li a:hover {
       font-size: 3.5rem;
     
 }
-.links img{
-    filter: invert(1);
+.contact-links a{
+    transition: transform 0.3s ease-out
 }
-.links .txt{
+
+.contact-links .txt{
     color: rgb(207, 200, 200);
 }
-.mail span{
+.mail {
     font-size: 35px;
     font-weight: bold;
-    color: #ddd;
+    color:black;
+}
+.section-third a:hover{
+    transform: translateY(8px);
 }
 
 
